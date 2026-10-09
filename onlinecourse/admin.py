@@ -4,6 +4,7 @@ from .models import (
     Course,
     Lesson,
     Learner,
+    Instructor,
     Enrollment,
     Question,
     Choice,
@@ -36,3 +37,4 @@ admin.site.register(Enrollment)
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice)
 admin.site.register(Submission)
+admin.site.register(Instructor)
